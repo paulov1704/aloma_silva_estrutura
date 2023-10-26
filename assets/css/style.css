@@ -1,0 +1,43 @@
+
+
+.header-sect{
+    z-index: 2;
+}
+
+h1,.h1{
+    color: #B14169;
+    max-height: 200px;
+}
+
+h2,.h2{
+    color: #B14169;
+}
+
+.btn{
+    background-color: #B14169;
+    border: none;
+}
+
+.imagem{
+    width: 614px;
+    height: 708px;
+    background-color: #B14169;
+    margin-bottom: -15%;
+}
+
+.first-sect{
+    height: 792px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,236,245,1) 53%, rgba(255,198,217,1) 100%);
+}
+
+.card-sect{
+    height: 762px;
+}
+
+.card{
+    width: 299px;
+    height: 249px;
+
+
+}
