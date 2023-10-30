@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
+/* ---------------------- HEADER  --------------  */
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #717171;
+}
 
 .header-sect{
     z-index: 2;
+    position: absolute;
 }
+
+.header-btn{
+    background-color: #FF77A5;
+    border: none;
+}
+
+/* ---------------------- PRIMEIRA SEÇÃO  --------------  */
+
+.first-sect{
+    height: 792px;
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,236,245,1) 53%, rgba(255,198,217,1) 100%);
+}
+
 
 h1,.h1{
     color: #B14169;
@@ -25,19 +46,127 @@ h2,.h2{
     margin-bottom: -15%;
 }
 
-.first-sect{
-    height: 792px;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,236,245,1) 53%, rgba(255,198,217,1) 100%);
-}
+/* ---------------------- SEÇÃO CARDS  --------------  */
 
 .card-sect{
-    height: 762px;
+    background-color: #FFF5F3;
 }
 
 .card{
-    width: 299px;
-    height: 249px;
-
+    width: 275px;
+    height: 247px;
 
 }
+
+/* ----------------------  SEÇÃO SOBRE  --------------  */
+
+.article-quem-sou{
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #717171;
+    max-width: 890px;
+}
+
+.borda{
+    
+    border-right: #F9D5D0 solid 1px ;
+    font-size: 18px;
+}
+
+.info,.h2{
+    color: #FF77A5;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---------------------- SEÇÃO VIDEO  --------------  */
+
+.video-sect{
+
+    background: #fff;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,236,245,1) 53%, rgba(255,198,217,1) 100%);
+
+}
+
+.dica-video{
+    text-align: center;
+    color: #FF77A5;
+}
+
+.video-thumb{
+    width: 614px;
+    height: 357px;
+    margin-bottom: -7%;
+}
+
+/* ---------------------- SEÇAO DEPOIMENTOS  --------------  */
+
+.art-dep{
+    max-width: 900px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------------------- SEÇÃO LOCAL DE ATENDIMENTO ---------------------*/
+
+.local-sect{
+    height: 794px;
+    background-color: #fff5f3;
+}
+
+.art-s-local{
+    max-width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #717171;
+}
+
+.art-local{
+    font-size: 16px;
+    color: #717171;
+}
+
+/* ---------------------- SEÇAO CADASTRO  --------------  */
+
+.cad-sect{
+    background: rgb(255,140,179);
+    background: radial-gradient(circle, rgba(255,140,179,1) 0%, rgba(248,115,161,1) 18%, rgba(255,60,128,1) 92%);
+    color: #ffffff;
+}
+
+.cad-h2{
+    color: #ffffff;
+}
+
+.cadastro{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.cad-botao{
+    width: 259px;
+    height: 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
+.cad-botao:hover{
+    color: white;
+}
+
+/*-------------------- FOOTER ------------------*/
+.footer{
+    height: 200px;
+
+}
+.footer-info{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
