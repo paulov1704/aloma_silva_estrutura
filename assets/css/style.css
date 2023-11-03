@@ -155,19 +155,23 @@ h2,.h2{
     color: white;
 }
 
+.msg-area{
+    height: 150px;
+}
+
 .cad-botao:hover{
     color: white;
 }
 
 /*-------------------- FOOTER ------------------*/
-.footer{
-    height: 200px;
 
-}
 .footer-info{
     list-style: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
 
+.f-endereco{
+    color: #717171;
+}
 
