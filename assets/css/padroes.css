@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 body{
     padding:0;
@@ -41,3 +41,10 @@ TAMANHO DAS FONTES
 .fs-48{
     font-size: 48px;
 }
+
+/* 
+---------------------------------
+CORES  
+---------------------------------
+*/
+
