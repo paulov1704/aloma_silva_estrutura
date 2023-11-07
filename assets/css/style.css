@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap');
 
 /* ---------------------- HEADER  --------------  */
 
@@ -24,14 +25,17 @@
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,236,245,1) 53%, rgba(255,198,217,1) 100%);
 }
 
-
 h1,.h1{
     color: #B14169;
     max-height: 200px;
+    font-family: 'Abril Fatface', serif;
+
 }
 
 h2,.h2{
     color: #B14169;
+    font-family: 'Abril Fatface', serif;
+
 }
 
 .imagem{
@@ -72,13 +76,6 @@ h2,.h2{
     -webkit-box-shadow: 10px 17px 70px -19px rgba(255,119,165,1);
     -moz-box-shadow: 10px 17px 70px -19px rgba(255,119,165,1);
 }
-/*
-.card:hover{
-    width: 275px;
-    height: 247px;
-    
-
-} */
 
 /* ----------------------  SEÇÃO SOBRE  --------------  */
 
@@ -91,8 +88,9 @@ h2,.h2{
 }
 .quem-sou{
     color: #B14169;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-family: 'Abril Fatface', serif;
+
 }
 
 .borda{
@@ -106,32 +104,58 @@ h2,.h2{
     font-family: 'Montserrat', sans-serif;
 }
 
-.carousel-sobre{
-   
-    
-}
-
 .pacientes{
     font-family: 'Montserrat', sans-serif;
 }
+
+.btn-consulta{
+    background-color: #B14169;
+}
+
+@media (max-width: 425px){
+    .article-quem-sou,.pacientes,.btn-consulta{
+        font-size: 14px;
+        
+        max-width: 395px;
+    }
+
+    .quem-sou,.info{
+        font-size: 24px;
+        
+    }
+
+
+}
+
+@media (max-width:576px){
+    .botao{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+
+
+}
+
 /* ---------------------- SEÇÃO VIDEO  --------------  */
 
 .video-sect{
-
     background: #fff;
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,236,245,1) 53%, rgba(255,198,217,1) 100%);
 
 }
 
-.dica-video{
-    text-align: center;
-    color: #FF77A5;
+.video-thumb{
+    border: none;
+    margin-bottom: -7%;
 }
 
-.video-thumb{
-    width: 614px;
-    height: 357px;
-    margin-bottom: -7%;
+
+@media  (max-width:445px){
+    .dica-video{
+        font-size: 24px;
+    }
+    
 }
 
 /* ---------------------- SEÇAO DEPOIMENTOS  --------------  */
@@ -139,8 +163,20 @@ h2,.h2{
 .art-dep{
     max-width: 900px;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
+@media (max-width:445px){
+
+    .h2-dep{
+        font-size: 24px;
+    }
+
+    .art-dep{
+        font-size: 14px;
+        max-width: 350px;
+    }
+}
 /* --------------------------- SEÇÃO LOCAL DE ATENDIMENTO ---------------------*/
 
 .local-sect{
@@ -159,6 +195,38 @@ h2,.h2{
 .art-local{
     font-size: 16px;
     color: #717171;
+}
+
+/* ---- mudar icon ---*/ 
+
+.icon-atend{
+    width: 100px;
+    height: 100px;
+}
+
+/* ------------- MEDIA QUERY --------------*/
+
+@media (max-width: 991px){
+
+    .articles-atend{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+}
+
+@media (max-width:425px){
+    .art-local,.art-s-local{
+        font-size: 14px;
+    }
+
+    .h2-atend{
+        font-size: 24px;
+    }
+
 }
 
 /* ---------------------- SEÇAO CADASTRO  --------------  */
@@ -195,6 +263,19 @@ h2,.h2{
 
 .cad-botao:hover{
     color: white;
+}
+
+/* ------------MEDIA QUERY ----------------*/
+@media (max-width: 567px){
+    .cad-h2{
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 90px){
+    .cad-h2{
+        font-size: 24px;
+    }
 }
 
 /*-------------------- FOOTER ------------------*/
