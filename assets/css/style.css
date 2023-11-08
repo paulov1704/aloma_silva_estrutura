@@ -25,9 +25,9 @@
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,236,245,1) 53%, rgba(255,198,217,1) 100%);
 }
 
-h1,.h1{
+h1,.titulo{
     color: #B14169;
-    max-height: 200px;
+    
     font-family: 'Abril Fatface', serif;
 
 }
@@ -45,6 +45,29 @@ h2,.h2{
 
     /* --------- MEDIA QUERY -----------*/
 
+@media (max-width: 768px){
+    .titulo{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .cont-header{
+        display: flex;
+
+    }
+
+    .imagem{
+        margin-bottom: none;
+    }
+}
+
+@media (max-width:425px){
+    .titulo{
+        font-size: 24px;
+    }
+
+
+}
 
 /* ---------------------- SEÇÃO CARDS  --------------  */
 
@@ -54,7 +77,7 @@ h2,.h2{
 
 .white-card{
     width: 275px;
-    height: 247px;
+    /* height: 247px; */
     font-size: 18px;
     color: #717171;
     font-family: 'Montserrat', sans-serif;
@@ -64,7 +87,7 @@ h2,.h2{
 
 .telefone{
     width: 275px;
-    height: 247px;
+    /* height: 247px; */
     background-color: #FF77A5;
     font-family: 'Montserrat', sans-serif;
     color: white;
