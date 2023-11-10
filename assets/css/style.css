@@ -16,8 +16,7 @@
 
 .first-sect{
     padding-top: 110px;
-    background: #ffffff;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,236,245,1) 53%, rgba(255,198,217,1) 100%);
+    background: radial-gradient(circle, #fff 0%, #f9d0e3 100%);
 }
 
 h1,.titulo{
@@ -32,6 +31,14 @@ h2,.h2{
 
 .banner-intro{
     margin-bottom: -50px;
+}
+
+.modal-btn{
+    background-color: #B14169;
+}
+
+.h2-modal{
+    font-size: 24px;
 }
 
     /* --------- MEDIA QUERY -----------*/
@@ -160,9 +167,8 @@ h2,.h2{
 /* ---------------------- SEÇÃO VIDEO  --------------  */
 
 .video-sect{
-    background: #fff;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,236,245,1) 53%, rgba(255,198,217,1) 100%);
-
+    background: radial-gradient(circle, #fff 0%, #f9d0e3 100%);
+  
 }
 
 .video-thumb{
@@ -312,4 +318,10 @@ h2,.h2{
 
 .f-endereco,.f-redes{
     color: #717171;
+}
+
+@media (max-width: 768px){
+    .footer-info{
+        text-align: center;
+    }
 }
